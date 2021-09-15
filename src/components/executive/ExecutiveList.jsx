@@ -19,7 +19,7 @@ export default function ExecutiveList() {
         let executiveService = new ExecutiveService()
         executiveService.delete(id)
         window.location.reload()
-        
+
     }
 
     return (
