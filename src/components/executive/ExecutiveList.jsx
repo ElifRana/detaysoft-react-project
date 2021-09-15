@@ -1,15 +1,26 @@
 import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router'
 import { Table, Button } from 'semantic-ui-react'
 import ExecutiveService from '../../services/ExecutiveService'
 
 export default function ExecutiveList() {
+
+    let { id } = useParams();
 
     const [executives, setExecutives] = useState([])
 
     useEffect(() => {
         let executiveService = new ExecutiveService()
         executiveService.getAll().then(result => setExecutives(result.data.data))
+        executiveService.delete(id).then(result => setExecutives(result.data.data))
     }, [])
+
+    function clear(id) {
+        let executiveService = new ExecutiveService()
+        executiveService.delete(id)
+        window.location.reload()
+        
+    }
 
     return (
         <Table celled>
@@ -23,7 +34,7 @@ export default function ExecutiveList() {
             </Table.Header>
             {
                 executives.map((executive) => (
-                    <Table.Body>
+                    <Table.Body key={executive.id}>
 
                         <Table.Row>
                             <Table.Cell>{executive.firstName}</Table.Cell>
@@ -31,7 +42,7 @@ export default function ExecutiveList() {
                             <Table.Cell>{executive.email}</Table.Cell>
 
                             <Table.Cell>
-                                <Button color='green'>Yönetici Sil</Button>
+                                <Button onClick={() => clear(executive.id)} type='button' color='green'>Yönetici Sil</Button>
                             </Table.Cell>
 
                         </Table.Row>

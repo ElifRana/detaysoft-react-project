@@ -9,7 +9,6 @@ import ExecutiveList from '../components/executive/ExecutiveList'
 import WorkerAdd from '../pages/WorkerAdd'
 import ExecutiveAdd from '../pages/ExecutiveAdd'
 import ToDoAdd from '../pages/ToDoAdd'
-import ToDoUpdate from '../pages/ToDoUpdate'
 
 export default function Dashboard() {
     return (
@@ -32,7 +31,6 @@ export default function Dashboard() {
                             <Route exact path="/workerAdd" component={WorkerAdd} />
                             <Route exact path="/toDoAdd" component={ToDoAdd} />
                             <Route exact path="/executiveAdd" component={ExecutiveAdd} />
-                            <Route exact path="/toDoUpdate" component={ToDoUpdate} />
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

@@ -6,7 +6,7 @@ export default class ExecutiveService {
     }
 
     delete(id){
-        return axios.post("http://localhost:8080/api/executives/delete?executiveId"+id)
+        return axios.post("http://localhost:8080/api/executives/delete?id="+id)
     }
 
     getAll(){

@@ -21,7 +21,7 @@ export default function WorkerList() {
         workerService.delete(id)
         window.location.reload()
     }
-
+    
     return (
         <Table celled>
             <Table.Header>

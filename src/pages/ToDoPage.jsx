@@ -31,11 +31,6 @@ export default function ToDoPage() {
                     <Menu.Header>ToDo</Menu.Header>
                     <Menu.Menu>
                         <Menu.Item>
-                            <Link to={`/toDoUpdate`} >
-                                <a key={toDos.id}><Header as='h4' color='green'> ToDo Güncelle </Header></a>
-                            </Link>
-                        </Menu.Item>
-                        <Menu.Item>
                             <Link to={`/`} >
                                 <a key={toDos.id}><Header as='h4' color='green'> ToDo Listesi </Header></a>
                             </Link>
