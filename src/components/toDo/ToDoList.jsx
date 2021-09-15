@@ -27,7 +27,8 @@ export default function ToDoList() {
             setUpdateToDoId(null)
         })
     }
- 
+
+    
     return (
         <Table celled>
             <Table.Header>
