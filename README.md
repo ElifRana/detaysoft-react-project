@@ -2,6 +2,9 @@
 ![HomePage](https://github.com/ElifRana/detaysoft-react-project/blob/main/HomePage.PNG)
 ![ToDoAddPage](https://github.com/ElifRana/detaysoft-react-project/blob/main/ToDoAddPage.PNG)
 
+## Build With
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
