@@ -1,3 +1,7 @@
+#ToDo Web Project Frontend
+[HomePage](https://github.com/ElifRana/detaysoft-react-project/blob/main/HomePage.PNG)
+[ToDoAddPage](https://github.com/ElifRana/detaysoft-react-project/blob/main/ToDoAddPage.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
