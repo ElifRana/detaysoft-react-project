@@ -1,6 +1,6 @@
 #ToDo Web Project Frontend
-[HomePage](https://github.com/ElifRana/detaysoft-react-project/blob/main/HomePage.PNG)
-[ToDoAddPage](https://github.com/ElifRana/detaysoft-react-project/blob/main/ToDoAddPage.PNG)
+![HomePage](https://github.com/ElifRana/detaysoft-react-project/blob/main/HomePage.PNG)
+![ToDoAddPage](https://github.com/ElifRana/detaysoft-react-project/blob/main/ToDoAddPage.PNG)
 
 # Getting Started with Create React App
 
